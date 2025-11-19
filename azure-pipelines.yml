@@ -3,6 +3,7 @@
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
+
 trigger:
 - main
 
@@ -13,5 +14,15 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+# 步骤1：明确安装所需的.NET SDK
+- task: UseDotNet@2
+  displayName: 'Install .NET 10 SDK'
+  inputs:
+    packageType: 'sdk'
+    version: '10.0.x' # 根据实际情况调整具体版本号，例如 '10.0.200'
+    includePreviewVersions: false # 若不使用预览版，设为false
+
+# 步骤2：执行构建（添加了参数并增加日志详细程度）
+- script: |
+    dotnet build --configuration $(buildConfiguration) --no-restore --verbosity detailed
   displayName: 'dotnet build $(buildConfiguration)'
