@@ -1,12 +1,207 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Code\\WebApiDemo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|d:\\code\\webapidemo\\webapidemo\\storagedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD25868F-BB43-ECE5-C189-4014C6857DD7}|WebApiDemo\\WebApiDemo.csproj|solutionrelative:webapidemo\\storagedomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85F28F-4DD2-4529-A893-D299F75F76F6}|Domain\\Domain.csproj|d:\\code\\webapidemo\\domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85F28F-4DD2-4529-A893-D299F75F76F6}|Domain\\Domain.csproj|solutionrelative:domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98D7353-2864-40B1-A3BD-B8A60A492F2C}|Storage\\Storage.csproj|d:\\code\\webapidemo\\storage\\demodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98D7353-2864-40B1-A3BD-B8A60A492F2C}|Storage\\Storage.csproj|solutionrelative:storage\\demodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B85F28F-4DD2-4529-A893-D299F75F76F6}|Domain\\Domain.csproj|d:\\code\\webapidemo\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B85F28F-4DD2-4529-A893-D299F75F76F6}|Domain\\Domain.csproj|solutionrelative:domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DemoDbContext.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\Storage\\DemoDbContext.cs",
+              "RelativeDocumentMoniker": "Storage\\DemoDbContext.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\Storage\\DemoDbContext.cs",
+              "RelativeToolTip": "Storage\\DemoDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAAAMAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T05:07:50.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApiDemo\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApiDemo\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T08:19:37.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\Program.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\Program.cs",
+              "RelativeToolTip": "WebApiDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:14:50.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApiDemo\\Dockerfile",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\Dockerfile",
+              "RelativeToolTip": "WebApiDemo\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-19T08:10:18.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApiDemo\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:58:13.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StorageDomainService.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\StorageDomainService.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\StorageDomainService.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\StorageDomainService.cs",
+              "RelativeToolTip": "WebApiDemo\\StorageDomainService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T04:56:28.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApiDemo\\appsettings.Development.json",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\appsettings.Development.json",
+              "RelativeToolTip": "WebApiDemo\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T11:18:35.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApiDemo\\WeatherForecast.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApiDemo\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T04:56:50.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\WebApiDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiDemo\\appsettings.json",
+              "ToolTip": "D:\\Code\\WebApiDemo\\WebApiDemo\\appsettings.json",
+              "RelativeToolTip": "WebApiDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T11:18:33.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\Domain\\Client.cs",
+              "RelativeDocumentMoniker": "Domain\\Client.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\Domain\\Client.cs",
+              "RelativeToolTip": "Domain\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T04:20:13.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Code\\WebApiDemo\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Order.cs",
+              "ToolTip": "D:\\Code\\WebApiDemo\\Domain\\Order.cs",
+              "RelativeToolTip": "Domain\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T04:20:46.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
