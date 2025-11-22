@@ -1,6 +1,51 @@
 @WebApiDemo_HostAddress = http://localhost:5296
 
-GET {{WebApiDemo_HostAddress}}/weatherforecast/
+GET {{WebApiDemo_HostAddress}}/weatherforecast/GetWeatherForecast
 Accept: application/json
 
 ###
+
+### ClientController tests
+
+# Create a client
+POST {{WebApiDemo_HostAddress}}/client
+Content-Type: application/json
+
+{
+  "clientName": "Test Client",
+  "address": "123 Test St"
+}
+
+###
+
+# Get all clients
+GET {{WebApiDemo_HostAddress}}/client
+Accept: application/json
+
+###
+
+# Get client by id (replace 1 with actual id returned by POST)
+GET {{WebApiDemo_HostAddress}}/client/1
+Accept: application/json
+
+###
+
+# Update client (replace 1 with actual id)
+PUT {{WebApiDemo_HostAddress}}/client/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "clientName": "Updated Client",
+  "address": "456 Updated Ave"
+}
+
+###
+
+# Delete client (replace 1 with actual id)
+DELETE {{WebApiDemo_HostAddress}}/client/1
+
+###
+
+# Example: create then get by id (manually copy the id from the create response)
+# First run the POST above, note the returned 'id', then run GET /client/{id}.

@@ -20,8 +20,12 @@ namespace Storage
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                  optionsBuilder.UseSqlServer(
-                      @"Server=tcp:azuresqldemo-server.database.windows.net,1433;Initial Catalog=AzureSqlDemo;Persist Security Info=False;User ID=bearcome;Password=Test1231;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                  // Only configure SQL Server when no provider has been configured (e.g. in production).
+                  if (!optionsBuilder.IsConfigured)
+                  {
+                        optionsBuilder.UseSqlServer(
+                            @"Server=tcp:azuresqldemo-server.database.windows.net,1433;Initial Catalog=AzureSqlDemo;Persist Security Info=False;User ID=bearcome;Password=Test1231;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                  }
             }
 
             protected override void OnModelCreating(ModelBuilder modelBuilder)
