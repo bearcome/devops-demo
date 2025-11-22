@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Domain/Domain.csproj" Id="5b85f28f-4dd2-4529-a893-d299f75f76f6" />
   <Project Path="Storage/Storage.csproj" Id="b98d7353-2864-40b1-a3bd-b8a60a492f2c" />
+  <Project Path="Tests/WebApiDemo.UnitTests/WebApiDemo.UnitTests.csproj" />
   <Project Path="WebApiDemo/WebApiDemo.csproj" />
 </Solution>

@@ -11,59 +11,27 @@ namespace WebApiDemo.Controllers
     [Route("[controller]")]
     public class ClientController : ControllerBase
     {
-        private readonly DemoDbContext _db;
+        private readonly IClientService _clientService;
 
-        public ClientController(DemoDbContext db)
+        public ClientController(IClientService clientService)
         {
-            _db = db;
+            _clientService = clientService;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Client>>> GetAll()
+        public async Task<IEnumerable<Client>> GetAll()
         {
-            var list = await _db.Clients.ToListAsync();
-            return Ok(list);
+            var list = await _clientService.GetClients();
+            return list;
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Client>> GetById(int id)
-        {
-            var client = await _db.Clients.FindAsync(id);
-            if (client == null) return NotFound();
-            return Ok(client);
-        }
-
+       
         [HttpPost]
-        public async Task<ActionResult<Client>> Create([FromBody] Client client)
+        public async Task<Client> Create([FromBody] Client client)
         {
-            _db.Clients.Add(client);
-            await _db.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = client.Id }, client);
+            await _clientService.CreateClient(client);
+            return client;
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Client client)
-        {
-            if (id != client.Id) return BadRequest();
-            var existing = await _db.Clients.FindAsync(id);
-            if (existing == null) return NotFound();
-
-            existing.ClientName = client.ClientName;
-            existing.Address = client.Address;
-
-            await _db.SaveChangesAsync();
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var existing = await _db.Clients.FindAsync(id);
-            if (existing == null) return NotFound();
-
-            _db.Clients.Remove(existing);
-            await _db.SaveChangesAsync();
-            return NoContent();
-        }
     }
 }
